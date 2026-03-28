@@ -1,7 +1,7 @@
-Structure :
+#Structure :
 
 
-trading_bot/
+##trading_bot/
 │
 ├─ bot/
 │   ├─ __init__.py
@@ -18,7 +18,7 @@ trading_bot/
     └─ limit_order.log    # Example LIMIT order
 
 
-## Setup Steps ##
+## Setup Steps 
 
 1.** Install Python** 
 2.** Install dependencies from requirements.txt: 
@@ -29,11 +29,11 @@ trading_bot/
      " set BINANCE_API_KEY=<your_testnet_api_key>
        set BINANCE_API_SECRET=<your_testnet_api_secret>"
 
-## How to run ##
+## How to run 
 1. Run the CLI bot:
    "python cli.py"
 
-## Assumptions ##
+## Assumptions 
 
 1. All trading is done on ( Binance Futures Testnet ), so no real funds are used.
 2. The minimum order notional is 100 USDT, meaning any order must be worth at least 100 USDT.
