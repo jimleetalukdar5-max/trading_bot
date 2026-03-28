@@ -2,20 +2,18 @@
 ## Project structure
 
 trading_bot/
-│
-├─ bot/
-│   ├─ __init__.py
-│   ├─ client.py          # API interaction & order sending
-│   ├─ orders.py          # Build and send orders
-│   ├─ validators.py      # Input validation
-│   └─ logging_config.py  # Logger setup
-│
-├─ cli.py                 # Command-line interface
-├─ requirements.txt       # Required Python packages
-├─ README.md              # Instructions & examples            
-└─ sample_logs/
-    ├─ market_order.log   # Example MARKET order
-    └─ limit_order.log    # Example LIMIT order
+bot/
+init.py
+client.py          # API interaction & order sending
+orders.py          # Build and send orders
+validators.py      # Input validation
+logging_config.py  # Logger setup
+cli.py                 # Command-line interface
+requirements.txt       # Required Python packages
+README.md              # Instructions & examples            
+sample_logs/
+market_order.log   # Example MARKET order
+imit_order.log    # Example LIMIT order
 
 
 ## Setup Steps 
