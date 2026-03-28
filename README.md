@@ -1,35 +1,54 @@
 #trading bot
 ## Project structure
 
-1.trading_bot/.
-2.bot/.
-3.init.py.
-4.client.py          # API interaction & order sending.
-5.orders.py          # Build and send orders.
-6.validators.py      # Input validation.
-7.logging_config.py  # Logger setup.
-8.cli.py                 # Command-line interface.
-9.requirements.txt       # Required Python packages.
-10.README.md              # Instructions & examples .           
-11.sample_logs/.
-12.market_order.log   # Example MARKET order.
-13.imit_order.log    # Example LIMIT order.
+1.trading_bot/
+
+2.bot/
+
+3.init.py
+
+4.client.py# API interaction & order sending
+
+5.orders.py# Build and send orders
+
+6.validators.py# Input validation
+
+7.logging_config.py# Logger setup
+
+8.cli.pyCommand-line interface.
+
+9.requirements.txtRequired Python packages
+
+10.README.mdInstructions & examples    
+
+11.sample_logs/
+
+12.market_order.log# Example MARKET order
+
+13.imit_order.logExample LIMIT order
 
 
 ## Setup Steps 
 
-1.** Install Python** .
+1.** Install Python** 
+
 2.** Install dependencies from requirements.txt: 
-     " pip install -r requirements.txt ".
-3.Configure API keys.
+
+     " pip install -r requirements.txt "
+     
+3.Configure API keys
+
   (i) Create your Binance Future Testnet accound.
-  (ii) Set your API key and secret in the environment variables.
-     " set BINANCE_API_KEY=<your_testnet_api_key>.
-       set BINANCE_API_SECRET=<your_testnet_api_secret>".
+  
+  (ii) Set your API key and secret in the environment variables
+  
+     " set BINANCE_API_KEY=<your_testnet_api_key>
+     
+       set BINANCE_API_SECRET=<your_testnet_api_secret>"
 
 ## How to run 
-1. Run the CLI bot:
-   "python cli.py".
+Run the CLI bot
+   " python cli.py "
 
 ## Assumptions 
 
