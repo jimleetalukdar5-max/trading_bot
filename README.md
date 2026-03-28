@@ -1,7 +1,7 @@
-#Structure :
+#trading bot
+## Project structure
 
-
-##trading_bot/
+trading_bot/
 │
 ├─ bot/
 │   ├─ __init__.py
