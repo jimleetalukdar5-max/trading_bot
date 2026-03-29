@@ -1,0 +1,24 @@
+=== LIMIT ORDER LOG ===
+
+INFO - User placing order: BTCUSDT, BUY, LIMIT, 0.25, 400.0
+INFO - Placing order...
+
+INFO - Order Response:
+Status: NEW
+Type: LIMIT
+Symbol: BTCUSDT
+Quantity: 0.25
+Price: 400.00
+Executed Qty: 0.000
+
+=== MARKET ORDER LOG ===
+
+INFO - User placing order: BTCUSDT, BUY, MARKET, 0.01
+INFO - Placing order...
+
+INFO - Order Response:
+Status: NEW
+Type: MARKET
+Symbol: BTCUSDT
+Quantity: 0.01
+Executed Qty: 0.000
